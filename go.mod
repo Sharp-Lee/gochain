@@ -1,8 +1,8 @@
-module gochain
+module main
 
 go 1.16
 
 require (
-	github.com/boltdb/bolt v1.3.1 // indirect
-	go.etcd.io/bbolt v1.3.5 // indirect
+	github.com/boltdb/bolt v1.3.1
+	golang.org/x/sys v0.0.0-20210309074719-68d13333faf2 // indirect
 )
